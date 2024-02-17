@@ -28,8 +28,4 @@ public class rotateMatrix {
         return matrix;
     }
 
-    public static void rotateMatrix90(ArrayList<ArrayList<Integer>> matrix){
-
-    }
-
 }
