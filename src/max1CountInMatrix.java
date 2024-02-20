@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class max1CountInMatrix {
     public static int maximumOnes(int[][] matrix){
         int max_count = 0;
@@ -30,6 +32,7 @@ public class max1CountInMatrix {
         return -1;
     }
     public static int maximumOnes4(int[][] matrix){
+
         int index = 0;
         int n = matrix.length;
         int m = matrix[0].length;

@@ -11,4 +11,8 @@ public class checkGivenNumberIsPowerOfTwo {
         }
         return setBitCount == 1;
     }
+
+    public static boolean isPowerOfTwo3(int n ){
+        return (n & -n) == n;
+    }
 }
