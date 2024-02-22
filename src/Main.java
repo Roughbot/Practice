@@ -1,8 +1,7 @@
-import java.sql.SQLOutput;
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Arrays.deepToString(printPattern1.printPattern(4)));
+        int[] arr = {1,1,11,4,3,3,2,5,7,2,6,7,9,1,4};
+        System.out.println(sizeOfSmallestSubArray.sizeOfSmallestSubArray(arr));
     }
 }
